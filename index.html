@@ -1,83 +1,51 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The world of Boda Liu</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: '华文中宋', serif;
-            background-color: #000000;
-            color: #ffffff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            text-align: center;
-        }
+    <title>The World of Boda Liu</title>
 
-        h1 {
-            font-size: 3em;
-            margin-bottom: 0.5em;
-        }
-
-        h2 {
-            font-size: 1.5em;
-            font-weight: 300;
-        }
-
-        nav {
-            margin-top: 2em;
-        }
-
-        nav a {
-            color: #ffffff;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 1.2em;
-            transition: color 0.3s;
-        }
-
-        nav a:hover {
-            color: #dddddd;
-        }
-
-        /* 切换语言链接样式 */
-        .language-switch {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-        }
-
-        .language-switch a {
-            color: #ffffff;
-            text-decoration: none;
-            font-size: 1em;
-        }
-
-        .language-switch a:hover {
-            color: #dddddd;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <div>
-        <h1>The world of Boda Liu</h1>
-        <h2>“切不可为了时代而放弃永恒”——埃德蒙德·胡塞尔</h2>
+
+<body class="zh">
+
+    <div class="language">
+        <a href="index-en.html">English</a>
+    </div>
+
+    <div class="container">
+
+        <h1>The World of Boda Liu</h1>
+
+        <div class="subtitle">
+            维也纳大学哲学系博士研究生
+        </div>
 
         <nav>
-            <a href="#">主页</a>
-            <a href="#">关于我</a>
-            <a href="#">项目</a>
-            <a href="#">联系我</a>
+            <a href="about/index.html">关于我</a>
+            <a href="research/index.html">研究</a>
+            <a href="publications/index.html">论文</a>
+            <a href="talks/index.html">学术报告</a>
+            <a href="cv/index.html">简历</a>
+            <a href="contact/index.html">联系</a>
         </nav>
 
-        <!-- 切换到英文版链接 -->
-        <div class="language-switch">
-            <a href="index-en.html">English</a>
+        <div class="quote">
+            “切不可为了时代而放弃永恒。”
+
+            <div class="quote-author">
+                —— 埃德蒙德·胡塞尔
+            </div>
         </div>
+
+        <footer>
+            © 2026 Boda Liu
+        </footer>
+
     </div>
+
 </body>
+
 </html>
