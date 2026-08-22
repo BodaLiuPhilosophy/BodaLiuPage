@@ -189,3 +189,15 @@ body.zh{
     }
 
 }
+
+.profile-photo {
+    text-align: center;
+    margin: 30px 0 40px 0;
+}
+
+.profile-photo img {
+    width: 260px;
+    height: auto;
+    display: inline-block;
+    border: 1px solid #555555;
+}
