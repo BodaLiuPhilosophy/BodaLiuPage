@@ -160,44 +160,55 @@ body.zh{
 
 }
 
-@media (max-width:768px){
+@media (max-width:768px){ 
+ 
+    body{ 
+ 
+        padding:30px 20px; 
+ 
+    } 
+ 
+    h1{ 
+ 
+        font-size:2.3rem; 
+ 
+    } 
+ 
+    nav{ 
+ 
+        line-height:2.2; 
+ 
+    } 
+ 
+    nav a{ 
+ 
+        display:inline-block; 
+ 
+        margin:8px 12px; 
+ 
+    } 
 
-    body{
+    .profile-photo img {
 
-        padding:30px 20px;
+        width:90%;
+
+        max-width:390px;
 
     }
-
-    h1{
-
-        font-size:2.3rem;
-
-    }
-
-    nav{
-
-        line-height:2.2;
-
-    }
-
-    nav a{
-
-        display:inline-block;
-
-        margin:8px 12px;
-
-    }
-
+ 
 }
 
-.profile-photo {
-    text-align: center;
-    margin: 30px 0 40px 0;
+.profile-photo { 
+    text-align: center; 
+    margin: 30px 0 40px 0; 
+} 
+ 
+.profile-photo img { 
+    width: 390px; 
+    height: auto; 
+    display: inline-block; 
+    border: 1px solid #555555; 
 }
-
-.profile-photo img {
-    width: 260px;
-    height: auto;
     display: inline-block;
     border: 1px solid #555555;
 }
